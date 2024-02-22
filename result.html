@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="result.css">
+    <script src="https://kit.fontawesome.com/056ca98994.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="add-name-container">
+        <h2> Enter Name here<i class="fa-solid fa-user" style="color: white;"></i></h2>
+        <div class="input">
+            <i class="fa-solid fa-angles-right"></i>
+            <input type="text" id="Entered-Name" placeholder="Enter names" required>
+            <button class="add-btn" onclick="input()">Add</button>
+        </div>
+    </div>
+
+   <div class="container">
+    <div class="show-name-box">
+        <h2>Name will be there  <i class="fa-solid fa-angles-down" style="color: white;"></i></h2>
+        <div id="outputData"></div>
+    </div>
+
+    <div class="winner-box">
+        <div class="heading">
+            <h2>Wanna see Winner <i class="fa-solid fa-question-mark" style="color: white;"></i></h2> 
+        <button onclick="showWinners()">Yes</i></h2></button>
+        </div>
+        <div class="winneroutput"></div>
+   </div>
+   </div>
+    
+    <script src="result.js"></script>
+</body>
+
+</html>
